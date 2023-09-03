@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,16 @@
   <!-- antes o despues de title? <link href="css/style.css" rel="stylesheet"> -->
   <!-- @font-face en CSS creo -->
   <!-- averiguar botones (boton more, details?) -->
+  <link href="CSS-alberto/style.css" rel="stylesheet">
 </head>
+
 <body>
   <header>
-    <a href="./index.html">
+    <a class="logo-sportit" href="./index.html">
       <img src="./img/logo.svg" alt="Logo Sportit">
     </a>
     <nav>
-      <ul>
+      <ul id="nav-top" type="none">
         <li><a href="#">Sports</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">About Us</a></li>
@@ -22,64 +25,75 @@
         <li><a href="#">Community</a></li>
       </ul>
     </nav>
-    <form action="/register" method="POST">
-      <button type="sumbit">Contact</button>
-    </form>
+    <button class="contact" type="button">
+      <a href="mailto:user@server.com">Contact
+      </a>
+    </button>
   </header>
   <main>
     <section>
-      <article>
-        <img src="./img/padel-intro.png" alt="Padel Intro">
-        <div>
+      <article id="frame-33">
+        <img id="padel-intro" src="./img/padel-intro.png" alt="Padel Intro">
+        <div id="frase-home">
           <h2>
-            LIVE: Follow the Telcel Huawei Mexico Open 2022 for free 
+            LIVE: Follow the Telcel Huawei Mexico Open 2022 for free
           </h2>
           <p>
             The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!
           </p>
-          <form action="/register" method="POST">
-            <button type="sumbit">Contact</button>
-          </form>
+          <button class="contact" type="button">
+            <a href="mailto:user@server.com">Contact
+            </a>
+          </button>
         </div>
       </article>
     </section>
     <section>
-      <header>
+      <header id="frame-2">
         <h2>What´s different between pros?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In
+          faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.
         </p>
       </header>
-      <section>
-        <article>
-          <button>01</button>
-          <div>
-            <h3>Track company-wide progress</h3>
-            <p>
-              Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
-            </p>
+      <section id="frame-35">
+        <article id="frame-34">
+          <div id="frame-4">
+            <button class="button" type="button" disabled>01</button>
+            <div id="frame-3">
+              <h3>Track company-wide progress</h3>
+              <p>
+                Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
+                egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
+              </p>
+            </div>
           </div>
         </article>
-        <article>
-          <button>02</button>
-          <div>
-            <h3>Advance built-in reports</h3>
-            <p>
-              Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
-            </p>
+        <article id="frame-34">
+          <div id="frame-5">
+            <button class="button" type="button" disabled>02</button>
+            <div id="frame-3">
+              <h3>Advance built-in reports</h3>
+              <p>
+                Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
+                egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
+              </p>
+            </div>
           </div>
         </article>
-        <article>
-          <button>03</button>
-          <div>
+        <article id="frame-6">
+          <button class="button" type="button" disabled>03</button>
+          <div id="frame-3">
             <h3>Everything you need in one place</h3>
             <p>
-              Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
+              Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
+              egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
             </p>
           </div>
         </article>
       </section>
     </section>
+    <!--
     <section>
       <section>
         <h2>Best of the month</h2>
@@ -88,21 +102,24 @@
             <img src="./img/avatar-sanyo.png" alt="Avatar Sanyo">
             <h3>Sanyo</h3>
             <p>
-              Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+              Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque.
+              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
           </article>
           <article>
             <img src="./img/avatar.lebron.png" alt="Avatar Lebron">
             <h3>Lebron</h3>
             <p>
-              Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+              Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque.
+              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
           </article>
           <article>
             <img src="./img/avatar-navarro.png" alt="Avatar Navarro">
             <h3>Navarro</h3>
             <p>
-              Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+              Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque.
+              Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
           </article>
         </div>
@@ -119,7 +136,9 @@
         </button>
       </footer>
     </section>
+  -->
   </main>
+  <!--
   <footer>
     <div>
       <img src="./img/logo.svg" alt="Logo Sportit">
@@ -174,5 +193,7 @@
       </p>
     </div>
   </footer>
+-->
 </body>
+
 </html>

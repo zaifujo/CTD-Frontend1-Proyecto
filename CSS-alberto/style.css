@@ -1,4 +1,148 @@
 * {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border: none;
+    appearance: none;
+    background: none;
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 165px;
+}
+
+.logoSportit {
+    width: 107.684px;
+    height: 25px;
+}
+
+#nav-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    padding-left: 0;
+}
+
+#nav-top a {
+    color: #1E1E26;
+}
+
+.contact {
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    background-color: #8B48BF;
+}
+
+/*header*/
+/*section-1*/
+#frame-33 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+    margin-left: 180px;
+    margin-right: 170px;
+    gap: 100px;
+}
+
+#padel-intro {
+    width: 540px;
+    height: 461.07px;
+}
+
+#frase-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 28px;
+}
+
+/*section-1*/
+/*section-2*/
+#frame-2 {
+    background-color: #8B48BF;
+    color: white;
+    padding: 40px;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#frame-2 h2,
+#frame-2 p {
+    width: 450px;
+}
+
+#frame-35 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    padding: 40px 0px;
+    justify-content: center;
+    gap: 24px;
+}
+
+#frame-34 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.button {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8B48BF;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+}
+
+#frame-4 {
+    display: flex;
+    width: 553px;
+    align-items: flex-start;
+    gap: 23px;
+}
+
+#frame-3 {
+    display: flex;
+    height: 158px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+#frame-5 {
+    display: flex;
+    align-items: flex-start;
+    gap: 23px;
+}
+
+#frame-6 {
+    display: flex;
+    align-items: flex-start;
+    gap: 23px;
+}
+
+/*section-2*/
