@@ -9,6 +9,9 @@
   <!-- @font-face en CSS creo -->
   <!-- averiguar botones (boton more, details?) -->
   <link href="CSS-alberto/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,8 +19,11 @@
     <a class="logo-sportit" href="./index.html">
       <img src="./img/logo.svg" alt="Logo Sportit">
     </a>
-    <nav>
-      <ul id="nav-top" type="none">
+    <button id=icon-hamburger type="button">
+      <img src="img/icon-hamburger.svg" alt="Icon Hamburger">
+    </button>
+    <nav id="nav-top">
+      <ul>
         <li><a href="#">Sports</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">About Us</a></li>
@@ -25,71 +31,73 @@
         <li><a href="#">Community</a></li>
       </ul>
     </nav>
-    <button class="contact" type="button">
+    <button class="contact" id="contact-header" type="button">
       <a href="mailto:user@server.com">Contact
       </a>
     </button>
   </header>
   <main>
+    <article id="frame-33">
+      <img id="padel-intro" src="./img/padel-intro.png" alt="Padel Intro">
+      <div id="frase-home">
+        <h2>
+          LIVE: Follow the Telcel Huawei Mexico Open 2022 for free
+        </h2>
+        <p>
+          The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!
+        </p>
+        <button id="contacto" class="contact" type="button">
+          <a href="mailto:user@server.com">Contact
+          </a>
+        </button>
+      </div>
+    </article>
     <section>
-      <article id="frame-33">
-        <img id="padel-intro" src="./img/padel-intro.png" alt="Padel Intro">
-        <div id="frase-home">
-          <h2>
-            LIVE: Follow the Telcel Huawei Mexico Open 2022 for free
-          </h2>
-          <p>
-            The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!
-          </p>
-          <button class="contact" type="button">
-            <a href="mailto:user@server.com">Contact
-            </a>
-          </button>
-        </div>
-      </article>
-    </section>
-    <section>
-      <header id="frame-2">
+      <header id="header-section2">
         <h2>What´s different between pros?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet
+          sodales. In
           faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.
         </p>
       </header>
-      <section id="frame-35">
-        <article id="frame-34">
-          <div id="frame-4">
-            <button class="button" type="button" disabled>01</button>
-            <div id="frame-3">
+      <section id="what">
+        <section>
+          <article>
+            <div>
+              <button type="button" disabled>01</button>
               <h3>Track company-wide progress</h3>
-              <p>
-                Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
-                egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
-              </p>
             </div>
-          </div>
-        </article>
-        <article id="frame-34">
-          <div id="frame-5">
-            <button class="button" type="button" disabled>02</button>
-            <div id="frame-3">
-              <h3>Advance built-in reports</h3>
-              <p>
-                Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
-                egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
-              </p>
-            </div>
-          </div>
-        </article>
-        <article id="frame-6">
-          <button class="button" type="button" disabled>03</button>
-          <div id="frame-3">
-            <h3>Everything you need in one place</h3>
             <p>
-              Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque
-              egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
+              Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus
+              pellentesque
+              egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat
+              dolor.
             </p>
+          </article>
+          <article>
+            <div>
+              <button type="button" disabled>02</button>
+              <h3>Advance built-in reports</h3>
+            </div>
+            <p>
+              Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus
+              pellentesque
+              egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat
+              dolor.
+            </p>
+          </article>
+        </section>
+        <article>
+          <div>
+            <button type="button" disabled>03</button>
+            <h3>Everything you need in one place</h3>
           </div>
+          <p>
+            Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus
+            pellentesque
+            egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
+          </p>
         </article>
       </section>
     </section>
